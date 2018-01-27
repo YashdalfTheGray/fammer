@@ -1,0 +1,27 @@
+{
+  "name": "fammer",
+  "version": "1.0.0",
+  "description": "Way to share food like people share other stuff",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YashdalfTheGray/fammer.git"
+  },
+  "keywords": [
+    "food",
+    "vue",
+    "material",
+    "sharing",
+    "node",
+    "javascript"
+  ],
+  "author": "Yash Kulshrestha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YashdalfTheGray/fammer/issues"
+  },
+  "homepage": "https://github.com/YashdalfTheGray/fammer#readme"
+}
