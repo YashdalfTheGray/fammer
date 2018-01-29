@@ -4,7 +4,10 @@
   "description": "Way to share food like people share other stuff",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=development node index.js",
+    "start": "concurrently -n \"webpack,server\" -c \"cyan,green\" -s last \"npm run watch\" \"npm run dev\"",
+    "dev": "cross-env NODE_ENV=development node index.js",
+    "watch": "cross-env NODE_ENV=development echo \"webpack watching\"",
+    "preprod": "cross-env NODE_ENV=production echo \"webpack production build\"",
     "prod": "cross-env NODE_ENV=production node index.js"
   },
   "repository": {
