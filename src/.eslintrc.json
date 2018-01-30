@@ -1,0 +1,13 @@
+{
+  "extends": "../.eslintrc.json",
+  "plugins": [
+    "plugin:vue/recommended"
+  ],
+  "parserOptions": {
+    "parser": "babel-eslint",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "html"
+  ]
+}
