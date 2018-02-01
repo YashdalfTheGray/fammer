@@ -8,7 +8,9 @@
     "dev": "cross-env NODE_ENV=development node index.js",
     "watch": "cross-env NODE_ENV=development webpack",
     "preprod": "cross-env NODE_ENV=production webpack -p",
-    "prod": "cross-env NODE_ENV=production node index.js"
+    "prod": "cross-env NODE_ENV=production node index.js",
+    "clean": "npx rimraf public/build.js public/build.js.map",
+    "linter": "eslint ."
   },
   "repository": {
     "type": "git",
