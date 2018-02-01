@@ -1,5 +1,6 @@
 # build files
 public/build.js
+public/build.js.map
 
 # Created by https://www.gitignore.io/api/node,linux,macos,windows
 
