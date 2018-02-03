@@ -9,5 +9,8 @@
   },
   "plugins": [
     "html"
-  ]
+  ],
+  "rules": {
+    "object-shorthand": ["off"]
+  }
 }

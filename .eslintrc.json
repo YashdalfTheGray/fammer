@@ -8,11 +8,13 @@
     "brace-style": ["error", "stroustrup"],
     "class-methods-use-this": ["off"],
     "comma-dangle": ["error", "never"],
+    "func-names": ["error", "as-needed"],
     "indent": ["error", 4, { "MemberExpression": 0 }],
     "linebreak-style": ["off"],
     "max-len": ["warn", 160],
     "no-console": ["off"],
     "no-param-reassign": ["error"],
-    "object-shorthand": ["error", "consistent-as-needed"]
+    "object-shorthand": ["error", "consistent-as-needed"],
+    "quotes": ["error", "single", { "avoidEscape": true, "allowTemplateLiterals": true }]
   }
 }
