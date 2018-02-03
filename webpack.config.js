@@ -17,7 +17,8 @@ module.exports = {
                 loader: 'eslint-loader',
                 exclude: /node_modules/,
                 options: {
-                    formatter: friendlyFormatter
+                    formatter: friendlyFormatter,
+                    configFile: path.resolve(__dirname, './src/.eslintrc.json')
                 }
             },
             {
