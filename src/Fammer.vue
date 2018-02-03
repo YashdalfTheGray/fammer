@@ -5,25 +5,22 @@
             <md-button>Log In</md-button>
         </md-app-toolbar>
         <md-app-content class="md-scrollbar">
-            <p>Test Test</p>
-            <p>Test Test</p>
-            <p>Test Test</p>
-            <p>Test Test</p>
-            <p>Test Test</p>
-            <p>Test Test</p>
-            <p>Test Test</p>
-            <p>Test Test</p>
-            <p>Test Test</p>
+            <restaurant-grid></restaurant-grid>
         </md-app-content>
     </md-app>
 </template>
 
 <script>
+import RestaurantGrid from './components/RestaurantGrid.vue';
+
 export default {
     name: 'fammer',
     data: () => ({
         appName: 'Fammer'
-    })
+    }),
+    components: {
+        RestaurantGrid
+    }
 };
 </script>
 
