@@ -3,8 +3,6 @@
         <restaurant></restaurant>
         <restaurant></restaurant>
         <restaurant></restaurant>
-        <restaurant></restaurant>
-        <restaurant></restaurant>
     </md-content>
 </template>
 
